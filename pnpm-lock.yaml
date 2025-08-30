@@ -28,7 +28,7 @@ importers:
         version: 0.0.4(valaxy@0.26.5(@babel/parser@7.28.3)(@nuxt/kit@3.18.1)(@types/markdown-it@14.1.2)(@types/node@24.3.0)(@vue/compiler-dom@3.5.20)(@vue/compiler-sfc@3.5.20)(axios@1.11.0)(eslint@9.34.0(jiti@2.5.1))(postcss@8.5.6)(rollup@4.49.0)(terser@5.43.1)(typescript@5.9.2)(yaml@2.8.1))
       valaxy-addon-meting:
         specifier: github:kemiaofxjun/valaxy-meting
-        version: https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/8b6152eb9e78e7045ac6542c28f1a7e66caded20
+        version: https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/31bb3d5041209324e02eb96158c9f8b596e763fd
       valaxy-addon-waline:
         specifier: ^0.2.1
         version: 0.2.1(typescript@5.9.2)(valaxy@0.26.5(@babel/parser@7.28.3)(@nuxt/kit@3.18.1)(@types/markdown-it@14.1.2)(@types/node@24.3.0)(@vue/compiler-dom@3.5.20)(@vue/compiler-sfc@3.5.20)(axios@1.11.0)(eslint@9.34.0(jiti@2.5.1))(postcss@8.5.6)(rollup@4.49.0)(terser@5.43.1)(typescript@5.9.2)(yaml@2.8.1))
@@ -3479,8 +3479,8 @@ packages:
     peerDependencies:
       valaxy: latest
 
-  valaxy-addon-meting@https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/8b6152eb9e78e7045ac6542c28f1a7e66caded20:
-    resolution: {tarball: https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/8b6152eb9e78e7045ac6542c28f1a7e66caded20}
+  valaxy-addon-meting@https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/31bb3d5041209324e02eb96158c9f8b596e763fd:
+    resolution: {tarball: https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/31bb3d5041209324e02eb96158c9f8b596e763fd}
     version: 0.1.4
 
   valaxy-addon-waline@0.2.1:
@@ -7556,7 +7556,7 @@ snapshots:
       lightgallery: 2.7.2
       valaxy: 0.26.5(@babel/parser@7.28.3)(@nuxt/kit@3.18.1)(@types/markdown-it@14.1.2)(@types/node@24.3.0)(@vue/compiler-dom@3.5.20)(@vue/compiler-sfc@3.5.20)(axios@1.11.0)(eslint@9.34.0(jiti@2.5.1))(postcss@8.5.6)(rollup@4.49.0)(terser@5.43.1)(typescript@5.9.2)(yaml@2.8.1)
 
-  valaxy-addon-meting@https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/8b6152eb9e78e7045ac6542c28f1a7e66caded20: {}
+  valaxy-addon-meting@https://codeload.github.com/kemiaofxjun/valaxy-meting/tar.gz/31bb3d5041209324e02eb96158c9f8b596e763fd: {}
 
   valaxy-addon-waline@0.2.1(typescript@5.9.2)(valaxy@0.26.5(@babel/parser@7.28.3)(@nuxt/kit@3.18.1)(@types/markdown-it@14.1.2)(@types/node@24.3.0)(@vue/compiler-dom@3.5.20)(@vue/compiler-sfc@3.5.20)(axios@1.11.0)(eslint@9.34.0(jiti@2.5.1))(postcss@8.5.6)(rollup@4.49.0)(terser@5.43.1)(typescript@5.9.2)(yaml@2.8.1)):
     dependencies:
