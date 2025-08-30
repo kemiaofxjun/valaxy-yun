@@ -52,7 +52,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       /** @see https://github.com/metowolf/MetingJS */
           props: {
         api: 'https://meting.051531.xyz/meting',
-        id: '2049540645',
+        id: '1466975169',
         server: 'netease',
         type: 'song',
           },
