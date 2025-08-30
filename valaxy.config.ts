@@ -66,7 +66,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
     addonHitokoto(),
     addonWaline({
-      serverURL: 'https://your-waline-url',
+      serverURL: 'https://waline.kemeow.top',
     }),
   ],
 
