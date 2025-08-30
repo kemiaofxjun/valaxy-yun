@@ -51,7 +51,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       global: true,
       /** @see https://github.com/metowolf/MetingJS */
           props: {
-        api: 'https://yun.kemeow.top/api/meting?url=',
+        api: 'https://meting.051531.xyz/meting',
         id: '2049540645',
         server: 'netease',
         type: 'song',
