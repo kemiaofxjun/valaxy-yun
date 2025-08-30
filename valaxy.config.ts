@@ -64,7 +64,9 @@ export default defineValaxyConfig<UserThemeConfig>({
       // 配置
       defaultSuffix: 'webp'
     }),
-    addonHitokoto(),
+    addonHitokoto({
+      api: 'https://yun.kemeow.top/api/hitokoto',
+    }),
     addonWaline({
       serverURL: 'https://waline.kemeow.top',
     }),
