@@ -1,0 +1,12 @@
+diff --git a/App.vue b/App.vue
+index ebcd318892212d15d4732bf6eeda5e79324da3aa..a3c36c856c708bbbf0e14ae9d0aede91e4de3a95 100644
+--- a/App.vue
++++ b/App.vue
+@@ -7,6 +7,7 @@ const props = withDefaults(defineProps<{
+   id: '308168565',
+   server: 'netease',
+   type: 'playlist',
++  api: 'https://meting.051531.xyz/meting'
+ })
+ 
+ export interface MetingJsProps {

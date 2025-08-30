@@ -1,0 +1,2 @@
+patchedDependencies:
+  valaxy-addon-meting: patches/valaxy-addon-meting.patch
