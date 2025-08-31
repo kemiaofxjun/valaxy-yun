@@ -24,12 +24,19 @@ declare module 'vue-router/auto-routes' {
     '/about/': RouteRecordInfo<'/about/', '/about', Record<never, never>, Record<never, never>>,
     '/about/site': RouteRecordInfo<'/about/site', '/about/site', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
+    '/bangumi/': RouteRecordInfo<'/bangumi/', '/bangumi', Record<never, never>, Record<never, never>>,
+    '/book/': RouteRecordInfo<'/book/', '/book', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
+    '/fc/': RouteRecordInfo<'/fc/', '/fc', Record<never, never>, Record<never, never>>,
+    '/gallery/': RouteRecordInfo<'/gallery/', '/gallery', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
+    '/sponsors/': RouteRecordInfo<'/sponsors/', '/sponsors', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
+    '/talks/': RouteRecordInfo<'/talks/', '/talks', Record<never, never>, Record<never, never>>,
   }
 
   /**
@@ -67,8 +74,24 @@ declare module 'vue-router/auto-routes' {
       routes: '/archives/'
       views: never
     }
+    'pages/bangumi/index.md': {
+      routes: '/bangumi/'
+      views: never
+    }
+    'pages/book/index.md': {
+      routes: '/book/'
+      views: never
+    }
     'pages/categories/index.md': {
       routes: '/categories/'
+      views: never
+    }
+    'pages/fc/index.md': {
+      routes: '/fc/'
+      views: never
+    }
+    'pages/gallery/index.md': {
+      routes: '/gallery/'
       views: never
     }
     'pages/links/index.md': {
@@ -87,8 +110,20 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/hello-valaxy'
       views: never
     }
+    'pages/projects/index.md': {
+      routes: '/projects/'
+      views: never
+    }
+    'pages/sponsors/index.md': {
+      routes: '/sponsors/'
+      views: never
+    }
     'pages/tags/index.md': {
       routes: '/tags/'
+      views: never
+    }
+    'pages/talks/index.md': {
+      routes: '/talks/'
       views: never
     }
   }

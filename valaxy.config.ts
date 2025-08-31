@@ -9,6 +9,7 @@ import { addonMeting } from 'valaxy-addon-meting'
 import { addonFace } from 'valaxy-addon-face'
 import { addonHitokoto } from 'valaxy-addon-hitokoto'
 import { addonWaline } from 'valaxy-addon-waline'
+// import BookList from './components/BookList.vue'
 
 // add icons what you will need
 const safelist = [
@@ -32,7 +33,8 @@ colors.forEach((c) => {
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
-    addons: [
+
+  addons: [
     addonAbbrlink(),
     addonBangumi({
       api: 'https://yi_xiao_jiu-bangumi.web.val.run',
@@ -88,7 +90,17 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
 
+    vite: {
+    plugins: [
+      // 自动导入组件插件（通常 Valaxy 已内置）
+    ]
+  },
+
   theme: 'yun',
+
+  // components: {
+  //   BookList
+  // },
 
   themeConfig: {
   banner: {
@@ -98,6 +110,20 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
     },
     },
+
+    nav: [
+      { text: '我的文章', link: '/posts/', icon: 'i-ri-article-line' },
+      { text: '标签', link: '/tags/', icon: 'i-ri-bookmark-3-line' },
+      { text: '分类', link: '/categories/', icon: 'i-ri-folder-3-line' },
+      { text: '项目列表', link: '/projects', icon: 'i-ri-gallery-view' },
+      { text: '我的书房', link: '/book', icon: 'i-ri-git-repository-line' },
+    { text: '我的追番', link: '/bangumi', icon: 'i-ri-bilibili-fill' },
+    { text: '友情链接', link: '/links/', icon: 'i-ri-link' },
+    { text: '朋友圈', link: '/fc/', icon: 'i-ri-wechat-line' },
+    { text: '微语', link: '/talks/', icon: 'i-ri-chat-3-line' },
+    // { text: '老婆列表', link: '/girls/', icon: 'i-ri-women-line' },
+    { text: '赞助者们', link: '/sponsors/', icon: 'i-ri-heart-line' },
+  ],
 
     notice: {
       enable: true,
@@ -110,6 +136,18 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/links/',
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
+      },
+      {
+        name: '鱼塘',
+        url: '/fc/',
+        icon: 'i-ri-wechat-line',
+        color: 'hotpink',
+      },
+      {
+        name: '微语',
+        url: '/talks/',
+        icon: 'i-ri-chat-3-line',
+        color: 'blue',
       },
       // {
       //   name: '喜欢的女孩子',

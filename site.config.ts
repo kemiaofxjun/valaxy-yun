@@ -3,6 +3,7 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://yun.kemeow.top/',
   lang: 'zh-CN',
+  languages: ['zh-CN'], // 只启用中文
   title: '喵洛阁',
   timezone: 'Asia/Shanghai',
   author: {
@@ -17,6 +18,7 @@ export default defineSiteConfig({
   },
   subtitle: '我们不但是守护者，还是一群时刻对抗失控和疯狂的可怜虫。',
   description: '愿你看轻一切真相后，依旧热爱你的家人和朋友。',
+  favicon: 'https://img.314926.xyz/images/2025/08/13/no-background-kemiaofxjun.webp',
 
   pageSize: 7,
 
