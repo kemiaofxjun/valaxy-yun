@@ -132,6 +132,18 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
+        name: '标签',
+        url: '/tags/',
+        icon: 'i-ri-bookmark-3-line',
+        color: 'yallow',
+      },
+      {
+        name: '分类',
+        url: '/categories/',
+        icon: 'i-ri-folder-3-line',
+        color: 'green',
+      },
+      {
         name: '我的小伙伴们',
         url: '/links/',
         icon: 'i-ri-genderless-line',
@@ -142,6 +154,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/fc/',
         icon: 'i-ri-wechat-line',
         color: 'hotpink',
+      },
+      {
+        name: '赞助者',
+        url: '/sponsors/',
+        icon: 'i-ri-heart-line',
+        color: 'violet',
       },
       {
         name: '微语',
