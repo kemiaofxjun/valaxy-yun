@@ -167,6 +167,24 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-chat-3-line',
         color: 'blue',
       },
+      {
+        name: '项目列表',
+        url: '/projects/',
+        icon: 'i-ri-gallery-view',
+        color: 'green',
+      },
+      {
+        name: '我的书房',
+        url: '/book/',
+        icon: 'i-ri-git-repository-line',
+        color: 'yellow',
+      },
+      {
+        name: '我的追番',
+        url: '/bangumi/',
+        icon: 'i-ri-bilibili-fill',
+        color: 'blue',
+      },
       // {
       //   name: '喜欢的女孩子',
       //   url: '/girls/',
