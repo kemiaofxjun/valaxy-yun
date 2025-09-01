@@ -1,6 +1,6 @@
 ---
 title: 说说
-nav: false
+aside: false
 ---
 
 <Talks />

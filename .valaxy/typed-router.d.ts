@@ -32,8 +32,12 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/hello-valaxy': RouteRecordInfo<'/posts/hello-valaxy', '/posts/hello-valaxy', Record<never, never>, Record<never, never>>,
+    '/posts/git-tongbu': RouteRecordInfo<'/posts/git-tongbu', '/posts/git-tongbu', Record<never, never>, Record<never, never>>,
+    '/posts/hexo-beiwang': RouteRecordInfo<'/posts/hexo-beiwang', '/posts/hexo-beiwang', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-biaotiyufa': RouteRecordInfo<'/posts/markdown-biaotiyufa', '/posts/markdown-biaotiyufa', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-duanluoyufa': RouteRecordInfo<'/posts/markdown-duanluoyufa', '/posts/markdown-duanluoyufa', Record<never, never>, Record<never, never>>,
     '/posts/markdown-dulanbiao': RouteRecordInfo<'/posts/markdown-dulanbiao', '/posts/markdown-dulanbiao', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-huanhangyuf': RouteRecordInfo<'/posts/markdown-huanhangyuf', '/posts/markdown-huanhangyuf', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/sponsors/': RouteRecordInfo<'/sponsors/', '/sponsors', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
@@ -107,12 +111,28 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/'
       views: never
     }
-    'pages/posts/hello-valaxy.md': {
-      routes: '/posts/hello-valaxy'
+    'pages/posts/git-tongbu.md': {
+      routes: '/posts/git-tongbu'
+      views: never
+    }
+    'pages/posts/hexo-beiwang.md': {
+      routes: '/posts/hexo-beiwang'
+      views: never
+    }
+    'pages/posts/markdown-biaotiyufa.md': {
+      routes: '/posts/markdown-biaotiyufa'
+      views: never
+    }
+    'pages/posts/markdown-duanluoyufa.md': {
+      routes: '/posts/markdown-duanluoyufa'
       views: never
     }
     'pages/posts/markdown-dulanbiao.md': {
       routes: '/posts/markdown-dulanbiao'
+      views: never
+    }
+    'pages/posts/markdown-huanhangyuf.md': {
+      routes: '/posts/markdown-huanhangyuf'
       views: never
     }
     'pages/projects/index.md': {

@@ -1,6 +1,6 @@
 ---
 title: 朋友圈
-nav: false
+aside: false
 ---
 
 # 我的朋友圈

@@ -1,5 +1,6 @@
 ---
 title: Markdown-速查表
+cover: https://img.314926.xyz/images/2025/07/10/sulanbiao.webp
 date: 2025-02-11 18:20:15
 updated: 2025-02-11 18:20:15
 categories: 技术分享
