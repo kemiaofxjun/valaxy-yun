@@ -38,6 +38,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/markdown-duanluoyufa': RouteRecordInfo<'/posts/markdown-duanluoyufa', '/posts/markdown-duanluoyufa', Record<never, never>, Record<never, never>>,
     '/posts/markdown-dulanbiao': RouteRecordInfo<'/posts/markdown-dulanbiao', '/posts/markdown-dulanbiao', Record<never, never>, Record<never, never>>,
     '/posts/markdown-huanhangyuf': RouteRecordInfo<'/posts/markdown-huanhangyuf', '/posts/markdown-huanhangyuf', Record<never, never>, Record<never, never>>,
+    '/posts/markdown-qiangdiaoyufa': RouteRecordInfo<'/posts/markdown-qiangdiaoyufa', '/posts/markdown-qiangdiaoyufa', Record<never, never>, Record<never, never>>,
+    '/posts/telegram-music': RouteRecordInfo<'/posts/telegram-music', '/posts/telegram-music', Record<never, never>, Record<never, never>>,
+    '/posts/tgtalk-deploy': RouteRecordInfo<'/posts/tgtalk-deploy', '/posts/tgtalk-deploy', Record<never, never>, Record<never, never>>,
+    '/posts/umami-deploy': RouteRecordInfo<'/posts/umami-deploy', '/posts/umami-deploy', Record<never, never>, Record<never, never>>,
+    '/posts/waline-deploy': RouteRecordInfo<'/posts/waline-deploy', '/posts/waline-deploy', Record<never, never>, Record<never, never>>,
+    '/posts/zyfx-drop': RouteRecordInfo<'/posts/zyfx-drop', '/posts/zyfx-drop', Record<never, never>, Record<never, never>>,
+    '/posts/zyfx-toolooz': RouteRecordInfo<'/posts/zyfx-toolooz', '/posts/zyfx-toolooz', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/sponsors/': RouteRecordInfo<'/sponsors/', '/sponsors', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
@@ -133,6 +140,34 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/markdown-huanhangyuf.md': {
       routes: '/posts/markdown-huanhangyuf'
+      views: never
+    }
+    'pages/posts/markdown-qiangdiaoyufa.md': {
+      routes: '/posts/markdown-qiangdiaoyufa'
+      views: never
+    }
+    'pages/posts/telegram-music.md': {
+      routes: '/posts/telegram-music'
+      views: never
+    }
+    'pages/posts/tgtalk-deploy.md': {
+      routes: '/posts/tgtalk-deploy'
+      views: never
+    }
+    'pages/posts/umami-deploy.md': {
+      routes: '/posts/umami-deploy'
+      views: never
+    }
+    'pages/posts/waline-deploy.md': {
+      routes: '/posts/waline-deploy'
+      views: never
+    }
+    'pages/posts/zyfx-drop.md': {
+      routes: '/posts/zyfx-drop'
+      views: never
+    }
+    'pages/posts/zyfx-toolooz.md': {
+      routes: '/posts/zyfx-toolooz'
       views: never
     }
     'pages/projects/index.md': {
